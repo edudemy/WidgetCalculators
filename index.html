@@ -1,9 +1,6 @@
-<
-html >
-    <
-    head >
-    <
-    style > #outer {
+<html>
+    <head>
+    <style> #outer {
         width: 300 px;background: #fff;text - align: center;
     }#
 cover {
@@ -28,11 +25,12 @@ cover {
     width: 50 %
 }.main button {
     width: 100 % ;font: 600 12 px arial;margin: 2 px 0;
-} < /style> <
-/head> <
-body >
-    <
-    script > function calcann() {
+} 
+        </style> 
+        
+        </head> 
+    <body>
+    <script> function calcann() {
         var principal = document.getElementById('principal').value;
         var rate = document.getElementById('rate').value;
         var time = document.getElementById('time').value;
@@ -47,12 +45,18 @@ body >
         }
     }
     
-    <
-    /script>
+    </script>
 
-    <
-    div id = outer > Annuity Calculator < div id = cover > < form name = annuity > < table class = main > < col class = w50 > < col class = w50 > < tr > < td > Lump sum deposit < td > < input id = principal > < tr > < td > Interest < td > < input id = rate > < tr > < td > Period < td > < input id = time > < tr > < td > Annuity Payment < td > < select id = ann_pmt > < option value = 12 > Monthly < option value = 4 selected > Quarterly < /select><tr><td><button type=reset >Reset</button > < td > < button type = button onclick = calcann(); > Submit < /button><tr><td>Annuity Amount<td><input id=ann_amt></table > < /form></div > < /div>
+    <div id = outer> Annuity Calculator 
+        <div id = cover> 
+            <form name = annuity> 
+                <table class = main> 
+                    <col class = w50 > 
+                    <col class = w50 > 
+                    <tr> <td> Lump sum deposit 
+                         <td> <input id = principal> 
+                             <tr> <td> Interest <td> <input id = rate> 
+                                 < tr > < td > Period < td > < input id = time > < tr > < td > Annuity Payment < td > < select id = ann_pmt > < option value = 12 > Monthly < option value = 4 selected > Quarterly < /select><tr><td><button type=reset >Reset</button > < td > < button type = button onclick = calcann(); > Submit < /button><tr><td>Annuity Amount<td><input id=ann_amt></table > < /form></div > < /div>
 
 
-    <
-    /body>
+    </body>
